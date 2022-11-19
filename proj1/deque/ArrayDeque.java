@@ -88,15 +88,16 @@ public class ArrayDeque<T> implements Deque<T>{
                 System.out.print("->");
         }
     }
+
     @Override
-    public boolean equals(Object o){
-        if (this == o)
+    public boolean equals(Object obj) {
+        if (this == obj)
             return true;
-        if (o == null)
+        if (obj == null)
             return false;
-        if (this.getClass() != o.getClass())
+        if (this.getClass() != obj.getClass())
             return false;
-        ArrayDeque<T> other = (ArrayDeque<T>) o;
+        ArrayDeque<T> other = (ArrayDeque<T>) obj;
         if (this.size != other.size)
             return false;
         for (int i = 0; i < size; ++i)

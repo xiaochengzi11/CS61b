@@ -105,14 +105,14 @@ public class LinkedListDeque<T> implements Deque<T>{
         return getRecursive(sentinel.next, index);
     }
     @Override
-    public boolean equals(Object o){
-        if (o == null)
+    public boolean equals(Object obj){
+        if (obj == null)
             return false;
-        if (this == o)
+        if (this == obj)
             return true;
-        if (this.getClass() != o.getClass())
+        if (this.getClass() != obj.getClass())
             return false;
-        LinkedListDeque<T> other = (LinkedListDeque<T>) o;
+        LinkedListDeque<T> other = (LinkedListDeque<T>) obj;
         if (size != other.size)
             return false;
         for (int i = 0; i < size; ++i)

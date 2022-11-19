@@ -12,4 +12,6 @@ public interface Deque <T> extends Iterable<T>{
     public T removeFirst();
     public T removeLast();
     public T get(int index);
+    //public boolean equals(Object other);
+
 }
