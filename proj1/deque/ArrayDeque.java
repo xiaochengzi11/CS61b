@@ -120,7 +120,7 @@ public class ArrayDeque<T> implements Deque<T>{
             return get(cursor++);
         }
     }
-    @Override
+
     public Iterator<T> iterator() {
         return new ArrayDequeIterator();
     }

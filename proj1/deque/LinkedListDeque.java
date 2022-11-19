@@ -132,7 +132,7 @@ public class LinkedListDeque<T> implements Deque<T>{
             return get(cursor++);
         }
     }
-    @Override
+
     public Iterator<T> iterator() {
         return new Iter();
     }
