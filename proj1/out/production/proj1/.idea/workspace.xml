@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8880c92f-d283-4296-87ab-25a57d4f54d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab2/target/classes/IntList/IntListExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/IntListExercises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/timingtest/TimeAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/timingtest/TimeAList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/timingtest/TimeSLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/timingtest/TimeSLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj0/game2048/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj0/game2048/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deque/LinkedListDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/deque/LinkedListDequeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/deque/ArrayDeque.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/deque/LinkedListDeque.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/deque/LinkedListDequeTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GGD1CoKRdMwGSgHgH1fPQdLMAa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Git_space/CS61b/proj1"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8880c92f-d283-4296-87ab-25a57d4f54d1" name="Changes" comment="" />
+      <created>1666005812797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666005812797</updated>
+      <workItem from="1666005814076" duration="750000" />
+      <workItem from="1666063257267" duration="61000" />
+      <workItem from="1666159079039" duration="12445000" />
+      <workItem from="1666233276552" duration="5724000" />
+      <workItem from="1666659302265" duration="37000" />
+      <workItem from="1667270066086" duration="12000" />
+      <workItem from="1667270116828" duration="7000" />
+      <workItem from="1668846253751" duration="3139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
