@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8880c92f-d283-4296-87ab-25a57d4f54d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../lab2/target/classes/IntList/IntListExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/IntListExercises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/randomizedtest/TestBuggyAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/randomizedtest/TestBuggyAList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/timingtest/TimeAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/timingtest/TimeAList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/timingtest/TimeSLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/timingtest/TimeSLList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../proj0/game2048/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj0/game2048/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deque/LinkedListDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/deque/LinkedListDequeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deque/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/deque/ArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deque/ArrayDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/deque/ArrayDequeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deque/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/deque/Deque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,14 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Git_space/CS61b/proj1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Git_space/CS61b/proj1&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +65,8 @@
       <workItem from="1666659302265" duration="37000" />
       <workItem from="1667270066086" duration="12000" />
       <workItem from="1667270116828" duration="7000" />
-      <workItem from="1668846253751" duration="3139000" />
+      <workItem from="1668846253751" duration="24684000" />
+      <workItem from="1668876069949" duration="696000" />
     </task>
     <servers />
   </component>

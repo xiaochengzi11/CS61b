@@ -2,8 +2,10 @@ package deque;
 
 import java.util.ArrayDeque;
 import java.util.Comparator;
+import java.util.Iterator;
 
 public class LinkedListDeque<T> implements Deque<T>{
+
     //Node
     private static class Node<T>{
         T item;
@@ -101,6 +103,38 @@ public class LinkedListDeque<T> implements Deque<T>{
         if (index < 0 || index >= size)
             throw new IndexOutOfBoundsException("Invalid index!");
         return getRecursive(sentinel.next, index);
+    }
+    @Override
+    public boolean equals(Object o){
+        if (o == null)
+            return false;
+        if (this == o)
+            return true;
+        if (this.getClass() != o.getClass())
+            return false;
+        LinkedListDeque<T> other = (LinkedListDeque<T>) o;
+        if (size != other.size)
+            return false;
+        for (int i = 0; i < size; ++i)
+            if (this.get(i) != other.get(i))
+                return false;
+        return true;
+    }
+    private class Iter implements Iterator<T>{
+        int cursor = 0;
+        public Iter() {cursor = 0;}
+
+        @Override
+        public boolean hasNext() {
+            return cursor != size;
+        }
+        public T next(){
+            return get(cursor++);
+        }
+    }
+    @Override
+    public Iterator<T> iterator() {
+        return new Iter();
     }
 }
 

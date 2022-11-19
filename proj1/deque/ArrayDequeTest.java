@@ -1,5 +1,8 @@
 package deque;
 import org.junit.Test;
+
+import java.util.Iterator;
+
 import static org.junit.Assert.*;
 
 /** Performs some basic linked list tests. */
@@ -144,6 +147,26 @@ public class ArrayDequeTest {
             dlist.addLast(i);
         for (int i = 16; i < 16; ++i)
             assertEquals((Integer) i,dlist.get(i));
+    }
+    @Test
+    public void iteratorTest(){
+        ArrayDeque<Integer> dlist = new ArrayDeque<>();
+        for (int i = 0; i < 10000; ++i)
+            dlist.addLast(i);
+        Iterator<Integer> iterator = dlist.iterator();
+        for (int i = 0; i < 10000; ++i)
+            assertEquals(dlist.get(i), iterator.next());
+    }
+    @Test
+    public void equalsTest(){
+        ArrayDeque<Integer> dl1 = new ArrayDeque<>();
+        ArrayDeque<Integer> dl2 = new ArrayDeque<>();
+        for (int i = 0; i < 100; ++i){
+            dl1.addLast(i);
+            dl2.addLast(i);
+        }
+        assertTrue(dl1.equals(dl2));
+        assertTrue(dl2.equals(dl1));
     }
 }
 
